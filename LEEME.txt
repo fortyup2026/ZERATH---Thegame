@@ -1,0 +1,67 @@
+DUAL: ZERATH — V6.0 · CLIC PARA CAMINAR
+
+PUBLICAR SIN VERCEL: ITCH.IO
+1. Entrá en itch.io con tu cuenta y creá un proyecto (Create new project).
+2. En Kind of project elegí HTML.
+3. Subí este ZIP COMPLETO, sin descomprimirlo.
+4. En Embed options elegí Click to launch in fullscreen.
+5. Guardá y abrí la vista previa del proyecto para jugar.
+6. Cuando lo hayas probado, podés cambiar la visibilidad a Public.
+
+En la pantalla inicial y durante la partida debe decir:
+V6.0 · CLIC PARA CAMINAR.
+Si aparece otra versión, esa página todavía está usando el paquete anterior.
+
+El nombre del ZIP conserva el de la entrega anterior. Su contenido también
+funciona en itch.io: incluye index.html en la raíz y recursos con rutas
+relativas. El archivo vercel.json se puede ignorar en itch.io.
+Guía oficial: https://itch.io/docs/creators/html5
+
+SI CONTINUÁS EN GITHUB / VERCEL
+Descomprimí el ZIP y subí los 25 archivos juntos donde está el index.html
+actual, usando Add file > Upload files. Reemplazá index.html y los recursos.
+Conservá Framework Preset: Other, sin instalación ni compilación. Publicá
+la raíz del proyecto. Este paquete no cambia automáticamente tu web.
+
+CONTROLES DE COMPUTADORA
+Clic izquierdo en el suelo: caminar hasta el lugar marcado.
+Otro clic: cambiar el destino. Gala calcula una ruta alrededor de obstáculos.
+Clic derecho sobre un militar: apuntar y disparar; mantenerlo repite el pulso.
+F: pulso con ayuda de apuntado. R: golpe cercano.
+Espacio / Q: esquivar. E: discos protectores desde el nivel 3.
+X: detener el recorrido. WASD / flechas: movimiento manual.
+Shift: correr. La cámara sigue a Gala desde una vista elevada.
+Rueda del mouse: acercar o alejar. Botón central y arrastrar: girar cámara.
+C: girar 90 grados. Escape / P: pausa.
+
+CELULAR
+Tocá y soltá sobre el suelo para caminar. Otro toque cambia el destino.
+Dos dedos sobre el escenario: girar cámara. También hay botón CÁMARA.
+Usá los botones PULSO, IMPULSO, GOLPE y DISCOS para combatir.
+El joystick sigue disponible y cancela el recorrido automático al usarlo.
+La orientación horizontal deja más espacio para el escenario.
+
+CAMBIOS DE ESTA VERSIÓN
+- Movimiento por clic o toque, con búsqueda de rutas A* y marcador de destino.
+- Colisiones de Gala y de las rutas ajustadas a las paredes rectangulares.
+- El impulso también respeta paredes y barricadas.
+- Cámara elevada con zoom y edificios transparentes cuando tapan a Gala.
+- Combate separado del clic para caminar, con selección de enemigos.
+- Interfaz y ayuda de controles actualizadas. Versión visible V6.0.
+
+CAMPAÑA
+Cinco capítulos, tres patrullas y seis civiles por capítulo. Liberá cada
+zona, quedate junto a los cautivos para rescatarlos y derrotá al jefe.
+Atacá cuando el jefe intenta curarse para interrumpir su regeneración.
+Griox es el villano final; en su última fase combiná Impulso y Pulso.
+Se mantienen las cinemáticas ilustradas y los botiquines periódicos.
+
+ALCANCE Y COMPROBACIÓN
+Esta revisión cambia la cámara y la interacción. Mantiene los modelos y
+materiales 3D de la entrega anterior. Las imágenes de referencia orientan
+el diseño; no son escenas 3D que puedan copiarse directamente al juego.
+Se verificaron la sintaxis, los recursos, la campaña, las rutas y las
+colisiones con la geometría y la lógica reales. La imagen renderizada y
+el rendimiento en un teléfono real siguen pendientes de comprobar:
+el navegador de prueba disponible tiene WebGL desactivado.
+El juego requiere WebGL 2. En Pausa podés cambiar la calidad y el sonido.

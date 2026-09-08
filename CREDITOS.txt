@@ -1,0 +1,63 @@
+DUAL: ZERATH · EL ECO DE GALA
+Universo, historia e ilustraciones aportadas por SebasWit.
+
+RECURSOS 3D
+Microsoft Rocketbox: Female Adult 04 y Male Adult 01, con sus texturas.
+Animaciones nativas idle, walk y run de Microsoft Rocketbox.
+Gala: cabello adicional en 3D; animaciones sin desplazamiento de raíz.
+https://github.com/microsoft/Microsoft-Rocketbox
+
+Militares: Soldier.glb, conservado de los recursos del index original.
+https://threejs.org/examples/models/gltf/Soldier.glb
+Motor: Three.js, conservado del index original.
+https://threejs.org/license/
+
+MATERIALES — POLY HAVEN, CC0
+Brick Wall 02: Dimitrios Savva.
+https://polyhaven.com/a/brick_wall_02
+Asphalt 02: Rob Tuytel.
+https://polyhaven.com/a/asphalt_02
+Plaster Stone Wall 02: Charlotte Baglioni.
+https://polyhaven.com/a/plaster_stone_wall_02
+Mapas de color, normales y rugosidad reducidos a 1024 px.
+https://polyhaven.com/license
+
+MIT License
+
+Copyright (c) 2020 Microsoft
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+MIT License — Three.js
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
