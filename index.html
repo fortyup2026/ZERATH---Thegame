@@ -10,12 +10,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="zerath-build" content="6.0.0-navigation" />
+    <meta name="zerath-build" content="7.0.0-night-rescue" />
     <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0iIzA4MDYwYSIvPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTY2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjFkMzUiIHN0cm9rZS13aWR0aD0iMTgiIG9wYWNpdHk9Ii4yOCIvPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTE4IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjMwNDkiIHN0cm9rZS13aWR0aD0iMjIiIG9wYWNpdHk9Ii42Ii8+CiAgPHBhdGggZD0iTTE0NiAxNTRoMjI0TDIxOCAzNThoMTYyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmY0ZjUiIHN0cm9rZS13aWR0aD0iMzgiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiLz4KICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjM2IiBmaWxsPSIjZmYyNDNlIi8+Cjwvc3ZnPgo=" type="image/svg+xml" />
     <title>DUAL: ZERATH — Gala</title>
     
 
-    <script type="module" src="./zerath-6.0.0.js"></script>
+    <script type="module" src="./zerath-7.0.0.js"></script>
   <!-- Asset notices: Microsoft Rocketbox, MIT License
 MIT License
 
@@ -40,7 +40,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
-<link rel="stylesheet" href="./zerath-6.0.0.css">
+<link rel="stylesheet" href="./zerath-7.0.0.css">
 </head>
   <body>
     <main id="game-shell" aria-label="Juego DUAL: ZERATH">
@@ -66,7 +66,7 @@ PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
           <div class="brand-lockup">
             <span class="brand-overline">DUAL</span>
             <strong>ZERATH</strong>
-            <small class="build-version">V6.0 · CLIC PARA CAMINAR</small>
+            <small class="build-version">V7.0 · NOCHE Y RESCATES</small>
           </div>
           <div class="mission-copy">
             <span id="level-kicker">NIVEL 1</span>
@@ -110,7 +110,7 @@ PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
           <span id="power-shield" class="power locked"><i>◌</i> DISCOS</span>
         </div>
 
-        <div id="radar-panel"><canvas id="radar" width="160" height="160" aria-label="Radar: enemigos rojos, rescates dorados y botiquines verdes"></canvas><span id="rescued-count">0/6 A SALVO</span></div>
+        <div id="radar-panel"><canvas id="radar" width="160" height="160" aria-label="Radar: enemigos rojos, rescates dorados y botiquines verdes"></canvas><span id="rescued-count">0/10 A SALVO</span></div>
         <div id="direction"><span id="direction-arrow" aria-hidden="true">↑</span><span id="direction-label">BUSCÁ A LOS CIVILES</span></div>
         <div id="rescue-prompt" hidden aria-live="polite"></div>
         <div class="crosshair" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
@@ -134,7 +134,7 @@ PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
         <div class="start-noise"></div>
         <div class="red-orbit orbit-one"></div>
         <div class="red-orbit orbit-two"></div>
-        <img class="gala-cover" src="./zerath-portada-6.0.0.png" alt="" aria-hidden="true" />
+        <img class="gala-cover" src="./zerath-portada-7.0.0.png" alt="" aria-hidden="true" />
 
         <div class="start-content">
           <div class="title-block">
@@ -152,7 +152,7 @@ PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
         </div>
 
         <div class="start-footer">
-          <span>SEBASWIT · DUAL UNIVERSE · V6.0 · CLIC PARA CAMINAR</span>
+          <span>SEBASWIT · DUAL UNIVERSE · V7.0 · NOCHE Y RESCATES</span>
           <span class="desktop-hint">WASD mover · Shift correr · Clic atacar · Espacio esquivar</span>
           <span class="mobile-hint">Joystick suave: caminar · Hasta el borde: correr · Arrastrá para girar la cámara</span>
         </div>
@@ -198,7 +198,7 @@ PBR materials: Poly Haven, CC0. See CREDITOS.txt. -->
           <span class="eyebrow" id="result-kicker">NIVEL SUPERADO</span>
           <h2 id="result-title">ZERATH RESISTE</h2>
           <p id="result-copy"></p>
-          <div class="result-stats"><div><strong id="result-rescues">0/6</strong><span>A SALVO</span></div>
+          <div class="result-stats"><div><strong id="result-rescues">0/10</strong><span>A SALVO</span></div>
             <div><strong id="result-time">00:00</strong><span>TIEMPO</span></div>
             <div><strong id="result-kills">0</strong><span>ENEMIGOS</span></div>
             <div><strong id="result-health">100%</strong><span>VIDA</span></div>

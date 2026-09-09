@@ -1,31 +1,46 @@
-DUAL: ZERATH — V6.0 · CLIC PARA CAMINAR
+DUAL: ZERATH — V7.0 · NOCHE Y RESCATES
 
-PUBLICAR SIN VERCEL: ITCH.IO
-1. Entrá en itch.io con tu cuenta y creá un proyecto (Create new project).
-2. En Kind of project elegí HTML.
-3. Subí este ZIP COMPLETO, sin descomprimirlo.
-4. En Embed options elegí Click to launch in fullscreen.
-5. Guardá y abrí la vista previa del proyecto para jugar.
-6. Cuando lo hayas probado, podés cambiar la visibilidad a Public.
+ACTUALIZAR TU JUEGO EN GITHUB
+1. Descargá ZERATH-Vercel.zip y descomprimilo.
+2. Abrí tu repositorio de GitHub en la carpeta donde está index.html.
+3. Elegí Add file > Upload files y seleccioná los 25 archivos descomprimidos.
+4. Confirmá el reemplazo de los archivos y pulsá Commit changes.
+5. Si ese repositorio está conectado a Vercel, esperá a que termine la
+   publicación y recargá la página del juego.
 
-En la pantalla inicial y durante la partida debe decir:
-V6.0 · CLIC PARA CAMINAR.
-Si aparece otra versión, esa página todavía está usando el paquete anterior.
+En la pantalla debe aparecer: V7.0 · NOCHE Y RESCATES.
+Si aparece una versión anterior, seguís viendo la publicación anterior.
+Subí los archivos que hay DENTRO del ZIP. index.html necesita también
+el JavaScript, el CSS, los modelos y las imágenes que vienen en el paquete.
+Los 25 archivos van juntos, en la misma carpeta, sin renombrarlos.
+Este ZIP no modifica tu página automáticamente.
 
-El nombre del ZIP conserva el de la entrega anterior. Su contenido también
-funciona en itch.io: incluye index.html en la raíz y recursos con rutas
-relativas. El archivo vercel.json se puede ignorar en itch.io.
-Guía oficial: https://itch.io/docs/creators/html5
+CONFIGURACIÓN DE VERCEL
+Framework Preset: Other. Sin instalación ni compilación.
+Directorio público: la raíz donde subiste los archivos.
+El paquete es estático: los modelos y las imágenes se sirven desde tu web.
 
-SI CONTINUÁS EN GITHUB / VERCEL
-Descomprimí el ZIP y subí los 25 archivos juntos donde está el index.html
-actual, usando Add file > Upload files. Reemplazá index.html y los recursos.
-Conservá Framework Preset: Other, sin instalación ni compilación. Publicá
-la raíz del proyecto. Este paquete no cambia automáticamente tu web.
+QUÉ CAMBIÓ
+- Cinco mapas nocturnos con distribuciones distintas: barrio residencial,
+  plaza con fuente y mercado, estación con trenes, fábrica y núcleo de Griox.
+- Ventanas encendidas, faroles y luz cercana para distinguir a los personajes.
+- Tres grupos de civiles por nivel; cada grupo tiene 3, 4 o 5 personas.
+- El círculo de rescate llega al 100%. Después los civiles corren hacia
+  una puerta de refugio y desaparecen solamente al entrar.
+- Corregida la orientación de los modelos de Gala, Ivo y los civiles.
+- Ivo sigue a Gala con distancia propia, busca rutas y dispara proyectiles
+  verdes que dañan y pueden eliminar a los militares.
+- Los discos protegen completamente durante 4 segundos. Se desbloquean
+  en el nivel 3, consumen 32 de eco y se recargan en 8 segundos.
+  En el nivel 5 también devuelven los proyectiles.
+- Después de rescatar a todos y derrotar al jefe, aparece un círculo
+  verde luminoso en el suelo. Entrá y quedate dentro para continuar.
+- Se mantienen el movimiento por clic, el impulso y los pulsos rojos
+  que salen de las manos de Gala.
 
 CONTROLES DE COMPUTADORA
 Clic izquierdo en el suelo: caminar hasta el lugar marcado.
-Otro clic: cambiar el destino. Gala calcula una ruta alrededor de obstáculos.
+Otro clic: cambiar el destino. Gala busca una ruta alrededor de obstáculos.
 Clic derecho sobre un militar: apuntar y disparar; mantenerlo repite el pulso.
 F: pulso con ayuda de apuntado. R: golpe cercano.
 Espacio / Q: esquivar. E: discos protectores desde el nivel 3.
@@ -38,30 +53,20 @@ CELULAR
 Tocá y soltá sobre el suelo para caminar. Otro toque cambia el destino.
 Dos dedos sobre el escenario: girar cámara. También hay botón CÁMARA.
 Usá los botones PULSO, IMPULSO, GOLPE y DISCOS para combatir.
-El joystick sigue disponible y cancela el recorrido automático al usarlo.
+El joystick cancela el recorrido automático al usarlo.
 La orientación horizontal deja más espacio para el escenario.
 
-CAMBIOS DE ESTA VERSIÓN
-- Movimiento por clic o toque, con búsqueda de rutas A* y marcador de destino.
-- Colisiones de Gala y de las rutas ajustadas a las paredes rectangulares.
-- El impulso también respeta paredes y barricadas.
-- Cámara elevada con zoom y edificios transparentes cuando tapan a Gala.
-- Combate separado del clic para caminar, con selección de enemigos.
-- Interfaz y ayuda de controles actualizadas. Versión visible V6.0.
-
 CAMPAÑA
-Cinco capítulos, tres patrullas y seis civiles por capítulo. Liberá cada
-zona, quedate junto a los cautivos para rescatarlos y derrotá al jefe.
+Cinco capítulos, con tres patrullas y un jefe en cada uno.
+Rescatás 10, 11, 12, 13 y 14 civiles, respectivamente.
+Primero derrotá a la patrulla; después entrá al círculo verde del grupo.
 Atacá cuando el jefe intenta curarse para interrumpir su regeneración.
 Griox es el villano final; en su última fase combiná Impulso y Pulso.
 Se mantienen las cinemáticas ilustradas y los botiquines periódicos.
 
-ALCANCE Y COMPROBACIÓN
-Esta revisión cambia la cámara y la interacción. Mantiene los modelos y
-materiales 3D de la entrega anterior. Las imágenes de referencia orientan
-el diseño; no son escenas 3D que puedan copiarse directamente al juego.
-Se verificaron la sintaxis, los recursos, la campaña, las rutas y las
-colisiones con la geometría y la lógica reales. La imagen renderizada y
-el rendimiento en un teléfono real siguen pendientes de comprobar:
-el navegador de prueba disponible tiene WebGL desactivado.
+COMPROBACIÓN
+La revisión se verifica con la geometría y la lógica reales del juego:
+rutas, colisiones, rescates, orientación, daño, protección y progresión.
+La imagen renderizada y el rendimiento en un teléfono real quedan
+pendientes de comprobar en tu dispositivo.
 El juego requiere WebGL 2. En Pausa podés cambiar la calidad y el sonido.
